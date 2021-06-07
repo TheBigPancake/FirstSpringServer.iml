@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+/* header-items */
+
+.header-conteiner {
+    height: 148px;
+    background: #f0efef;
+}
+
+.wrapper {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.nav-items{
+    position: relative;
+    margin:  0;
+    padding: 0;
+  }
+
+.nav-items ul{
+    display: none;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: -65px;
+    z-index: 1000;
+  }
+  
+.nav-items li {
+    list-style: none;
+    width: 256px;
+    height: 87px;
+    margin-left: 25px;
+    background: #cecccc;
+}
+.nav-items ul li {
+    list-style: none;
+    width: 256px;
+    height: 50px;
+    background: #e9e9e9;
+}
+
+.nav-items li:hover {
+    background: #dad8d8;
+}
+
+.nav-items ul li:hover {
+    background: #a7a7a7;
+}
+
+.nav-items li a {
+    font-family: Ribeye Marrow;
+    font-size: 22px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 30px;
+    color: #686868;
+}
+.nav-items ul li a {
+    padding-top: 10px;
+}
+
+.nav-items a{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.nav-items li:hover ul{
+    display: block;
+}
+
+.nav-items li:hover li{
+    display: block;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 148px;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav .header-logo {
+    margin-left: 92px;
+    margin-top: 8px;
+    width: 104px;
+    height: 108px;
+}
+
+/* body-conteiner */
+
+.body-conteiner {
+    position: relative;
+    height: 724px;
+    top: 10px;
+}
+
+/* footer-conteiner */
+
+.footer-conteiner {
+    height: 167px;
+    background: #CDCDCD;
+    padding: 20px;
+    margin-top: auto;
+    clear: both;
+}
+
+.footer-conteiner h2 {
+    width: 300px;
+    height: 66px;
+    align-items: center;
+    margin-left: 40px;
+}
+
+.footer-conteiner .footer-logo {
+    width: 86px;
+    height: 82px;
+    margin-top: -15px;
+}
+
+.footer-conteiner p {
+    width: 414px;
+    height: 69px;
+    margin-top: -80px;
+    margin-left: 130px;
+    font-size: 16px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+}

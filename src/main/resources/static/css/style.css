@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+}
+
+header {
+  background: #ECF0F1;
+  width: 1000px;
+  height: 120px; 
+  margin: 30px auto;
+}
+
+tr td {
+  align-content: center;
+  padding: 4px;
+}
+
+footer {
+  background: #ECF0F1;
+  width: 1000px;
+  height: 120px; 
+  margin: 30px auto;
+ 
+}
+
+h2 {
+  float: left;
+  padding: 20px
+}
+
+fieldset {
+  width: 900px;
+  margin: 0 auto;
+  display: inline;
+}
+
+.btn-group button { 
+  padding: 20px 70px; 
+  margin-right: 15px;
+  margin-top: 15px;
+  cursor: pointer;
+  display: inline-block;
+  float: right; 
+}
+
+.btn-group button:hover {
+  background-color: gray;
+}
+
+.body {
+  width: 1000px;
+  background: #ECF0F1;
+  margin: -25px auto;
+  padding: 40px; 
+}
+
+.form {
+  width: 200px;
+  position: relative;
+}
+
+.form input {
+  margin: 10px;
+  padding: 10px;
+}
+
+.form button {
+  margin: 10px;
+  padding: 10px;
+  width: 90%;
+}
